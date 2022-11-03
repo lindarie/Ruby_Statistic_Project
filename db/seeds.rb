@@ -20,9 +20,10 @@ csv.each do |row|
   #t.pollution_type = row['pollution_type']
   t.xcoordinate = row['xcoordinate']
   t.ycoordinate = row['ycoordinate']
-  t.type = row['type']
+  t.pol_type = row['pol_type']
   t.type_name = row['type_name']
   t.save
   #puts "\n"
 end
+
 #puts csv_text
